@@ -1,0 +1,39 @@
+.prototype-form-note {
+  margin: 9px 0 0;
+  padding: 9px 11px;
+  border: 1px solid #ead89d;
+  border-radius: 7px;
+  background: #fff7df;
+  color: #705613;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Keep the checkout decision area visible while the form scrolls. */
+.checkout-flow .checkout-total,
+.checkout-flow .place-order,
+.checkout-flow .express-checkout {
+  position: sticky;
+  z-index: 6;
+}
+
+.checkout-flow .express-checkout {
+  bottom: 0;
+  margin-top: 0;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0 8px 0 #f4f6f8;
+}
+
+.checkout-flow .place-order {
+  bottom: 47px;
+  margin-top: 0;
+  border-radius: 0;
+  box-shadow: 0 -8px 0 #f4f6f8;
+}
+
+.checkout-flow .checkout-total {
+  bottom: 90px;
+  margin-top: 9px;
+  border-radius: 7px 7px 0 0;
+}

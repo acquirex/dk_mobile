@@ -1,0 +1,2 @@
+.category-section .category span{border-radius:0!important;background:transparent!important}.category-section .category.selected::after{display:none!important}
+.category-section .category:nth-child(7) span img{width:30px!important;height:42px!important;max-width:30px!important;max-height:42px!important;object-fit:contain!important}

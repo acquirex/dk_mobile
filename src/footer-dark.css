@@ -1,0 +1,48 @@
+.site-footer {
+  background: #c90012;
+  color: #f5f8fb;
+  border-top: 1px solid #a8000e;
+}
+
+.site-footer .footer-brand { display: none; }
+.site-footer .footer-brand img {
+  width: 158px;
+  height: 39px;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.08));
+}
+.site-footer .footer-brand p { color: #aab8c5; }
+
+.site-footer .footer-contact {
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 0;
+  border: 0;
+}
+.site-footer .footer-contact a,
+.site-footer .footer-contact a:last-child {
+  min-height: 58px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255,255,255,.32);
+  border-radius: 8px;
+  background: rgba(112,0,10,.2);
+  color: #f4f7fa;
+}
+.site-footer .footer-contact svg { color: #fff; }
+.site-footer .footer-contact b { color: #fff; }
+.site-footer .footer-contact small { color: #ffe3e6; }
+
+.site-footer .footer-signup {
+  padding: 16px;
+  background: #a9000f;
+  border: 1px solid rgba(255,255,255,.25);
+}
+.site-footer .footer-signup h3 { color: #fff; }
+.site-footer .footer-signup input { background: #f7f9fb; color: #1d2a34; }
+.site-footer .footer-signup button { background: #17283a; color: #fff; }
+
+.site-footer .footer-links,
+.site-footer .footer-links details { border-color: rgba(255,255,255,.28); }
+.site-footer .footer-links summary { color: #eef3f7; }
+.site-footer .footer-links summary svg { color: #ffdce0; }
+.site-footer .footer-links a { color: #ffe6e8; }
+.site-footer .footer-bottom { color: #ffdce0; border: 0; }

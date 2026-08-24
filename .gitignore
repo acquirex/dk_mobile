@@ -1,0 +1,8 @@
+node_modules
+dist
+.vercel
+
+# Local design references (the app uses optimized copies in public/)
+/screencapture-*.png
+/image*.png
+/877-Photoroom.png

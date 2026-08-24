@@ -1,0 +1,114 @@
+.category-section {
+  position: relative;
+  margin: 0;
+  padding: 15px 0 12px;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  overflow: visible;
+}
+
+.category-section::before {
+  content: none;
+}
+
+.category-section .section-title {
+  padding: 0 14px 12px;
+}
+
+.category-section .category-rail {
+  gap: 10px !important;
+  padding: 0 14px 7px !important;
+}
+
+.category-section .category {
+  width: 78px !important;
+  min-width: 78px !important;
+  flex: 0 0 78px !important;
+  height: 112px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  overflow: visible !important;
+}
+
+.category-section .category > span {
+  position: static !important;
+  width: 72px !important;
+  min-width: 72px !important;
+  height: 72px !important;
+  min-height: 72px !important;
+  flex: 0 0 72px !important;
+  margin: 0 auto !important;
+  border: 1px solid transparent !important;
+  border-radius: 50% !important;
+  background: #f0f1f2 !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+
+.category-section .category:nth-child(4n+2) > span,
+.category-section .category:nth-child(4n+3) > span,
+.category-section .category:nth-child(4n+4) > span {
+  background: #f0f1f2 !important;
+}
+
+.category-section .category > span > img {
+  position: static !important;
+  width: 64px !important;
+  max-width: 64px !important;
+  height: 64px !important;
+  max-height: 64px !important;
+  margin: auto !important;
+  padding: 5px !important;
+  object-fit: contain !important;
+  transform: none !important;
+  filter: none !important;
+  mix-blend-mode: multiply;
+}
+
+.category-section .category:nth-child(7) > span > img {
+  width: 56px !important;
+  max-width: 56px !important;
+  height: 56px !important;
+  max-height: 56px !important;
+}
+
+.category-section .category > b {
+  position: static !important;
+  width: 78px !important;
+  min-height: 30px !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 8px 1px 0 !important;
+  color: #3d4145 !important;
+  font-size: 8px !important;
+  font-weight: 700 !important;
+  line-height: 1.16 !important;
+  text-align: center !important;
+}
+
+.category-section .category.selected > span {
+  border: 1.5px solid #3660b5 !important;
+  background: #f0f1f2 !important;
+  box-shadow: none !important;
+}
+
+.bath-product,
+.bath-guides article,
+.product-card,
+.handles-product-card,
+.modern-category-card,
+.audience-card {
+  cursor: pointer;
+}
+
+.bath-product:active,
+.bath-guides article:active,
+.product-card:active,
+.handles-product-card:active,
+.modern-category-card:active,
+.audience-card:active {
+  transform: scale(.985);
+}
