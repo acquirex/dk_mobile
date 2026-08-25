@@ -1,0 +1,34 @@
+.site-footer{margin-top:12px;padding:26px 20px 94px;border:0;border-top:3px solid #d71920;background:#f5f6f7;color:#17232d}
+.site-footer .footer-brand{display:block;padding:0 0 19px}.site-footer .footer-brand img{display:none}
+.site-footer .footer-brand p{margin:0;color:#17232d;font-size:0;font-weight:800;line-height:1.25}
+.site-footer .footer-brand p:before{content:"Need help with an order?";font-size:17px}
+.site-footer .footer-brand p:after{content:"Product sourcing, order support, and volume pricing from hardware specialists.";display:block;max-width:305px;margin-top:6px;color:#66737d;font-size:9px;font-weight:500;line-height:1.5}
+.site-footer .footer-contact{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:0 0 20px}
+.site-footer .footer-contact a,.site-footer .footer-contact a:last-child{min-height:62px;display:flex;align-items:center;gap:10px;padding:11px;border:1px solid #dce1e4;border-radius:8px;background:#fff;color:#17232d;text-decoration:none;box-shadow:0 2px 8px rgba(25,39,49,.04)}
+.site-footer .footer-contact svg{width:18px;height:18px;color:#d71920;flex:none}.site-footer .footer-contact span{display:flex;min-width:0;flex-direction:column;gap:3px}
+.site-footer .footer-contact b{color:#17232d;font-size:9px}.site-footer .footer-contact small{color:#72808a;font-size:7px;line-height:1.35}
+.site-footer .footer-signup{display:grid;grid-template-columns:96px 1fr;align-items:center;gap:9px;margin:0 0 20px;padding:13px 0;border:solid #dce1e4;border-width:1px 0;border-radius:0;background:transparent}
+.site-footer .footer-signup h3{margin:0;color:#53616b;font-size:8px;font-weight:700;line-height:1.35}
+.site-footer .footer-signup>div{height:34px;display:flex;border:1px solid #ccd4d9;border-radius:5px;background:#fff;overflow:hidden}
+.site-footer .footer-signup input{min-width:0;flex:1;padding:0 9px;border:0;background:#fff;color:#27343d;font-size:8px}
+.site-footer .footer-signup button{width:52px;background:#27343d;color:#fff;font-size:7px;font-weight:750}
+.site-footer .footer-links{border-top:1px solid #d7dde1}.site-footer .footer-links details{border-bottom:1px solid #d7dde1}
+.site-footer .footer-links summary{height:47px;color:#26333c;font-size:9px;font-weight:750}
+.site-footer .footer-links summary svg{width:14px;color:#78858e}.site-footer .footer-links details>div{padding:0 0 14px}
+.site-footer .footer-links a{color:#52616b;font-size:8px;line-height:1.5}
+.site-footer .footer-bottom{display:flex;justify-content:space-between;padding-top:18px;color:#7b8790;font-size:7px}
+.site-footer a:active,.site-footer button:active,.site-footer summary:active{opacity:.68}
+.site-footer .footer-brand{margin:-26px -20px 0;padding:25px 20px 18px;background:#b40012}
+.site-footer .footer-brand p,.site-footer .footer-brand p:before{color:#fff}
+.site-footer .footer-brand p:after{color:#f4cdd1}
+.site-footer .footer-contact{margin:0 -20px;padding:0 20px 18px;background:#b40012}
+.site-footer .footer-contact a,.site-footer .footer-contact a:last-child{border-color:rgba(255,255,255,.32);background:rgba(91,0,8,.22);color:#fff;box-shadow:none}
+.site-footer .footer-contact svg,.site-footer .footer-contact b{color:#fff}
+.site-footer .footer-contact small{color:#f4cdd1}
+.site-footer .footer-signup{margin:0 -20px 20px;padding:14px 20px 18px;border:0;background:#b40012}
+.site-footer .footer-signup h3{color:#fff}
+.site-footer .footer-signup>div{border-color:rgba(255,255,255,.45)}
+.site-footer .footer-signup button{background:#222e37}
+.site-footer .footer-links{margin-top:0}
+.site-footer .footer-brand+.footer-contact{border-top:0}
+.site-footer .footer-contact+.footer-signup{border-top:1px solid rgba(255,255,255,.18)}
